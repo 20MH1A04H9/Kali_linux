@@ -28,3 +28,37 @@ Slide the power bar to High
 Select GenericBoost.hoic booster from the drop-down list
 
 Click add
+## Kali Wifi drives
+
+Install Wifi Module
+## Verify the adapters
+
+#### Step 1: run the command and then Terminal
+
+```http
+  ifconfig
+```
+
+#### Step 2: check the Drivers whether they install or  not
+
+```http
+  airmon-ng
+```
+
+#### Step 3: Download Link
+
+- [WifiDrive](http://linuxwireless.sipsolutions.net/download/compat-wireless-2.6/compat-wireless-2010-06-26-p.tar.bz2)
+
+#### Step 4: Extract the file
+
+```http
+  tar -jxvf compat-wireless-2010-06-26-p.tar.bz2
+```
+
+#### Step 5: Change the floder and Uninstall and reinstalling the drivers 
+
+```http
+  cd file name 
+  make unload
+  make load
+```
