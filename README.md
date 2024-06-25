@@ -35,13 +35,13 @@ Install Wifi Module
 
 #### Step 1: run the command and then Terminal
 
-```http
+```
   ifconfig
 ```
 
 #### Step 2: check the Drivers whether they install or  not
 
-```http
+```
   airmon-ng
 ```
 
@@ -51,13 +51,13 @@ Install Wifi Module
 
 #### Step 4: Extract the file
 
-```http
+```
   tar -jxvf compat-wireless-2010-06-26-p.tar.bz2
 ```
 
 #### Step 5: Change the floder and Uninstall and reinstalling the drivers 
 
-```http
+```
   cd file name 
   make unload
   make load
