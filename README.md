@@ -62,3 +62,27 @@ Install Wifi Module
   make unload
   make load
 ```
+## Wordlist  Exect the rockyou.txt
+
+
+#### change the Directory
+
+```
+  cd usr/share/wordlists
+```
+
+#### Find rockyou.txt.gz file in the wordlists
+
+```
+  Sudo gzip -d rockyou.txt.gz
+```
+
+####  after check the List the wordlists
+```
+wc -l rockyou.txt 
+```
+####  grep to find the passwords
+
+```
+  grep cisco rockyou.txt
+```
