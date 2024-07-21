@@ -1,0 +1,24 @@
+Step-by-Step Guide to Manually Delete CrowdStrike Falcon Drivers
+Access Advanced Repair Options:
+
+Start your computer and if needed, access the Advanced Repair Options. This can typically be done by restarting your computer and pressing a specific key (like F8 or Shift) before Windows begins to load, or by using the Windows Recovery Environment (WinRE).
+Select "Troubleshoot" > "Advanced options" > "Startup Settings" > "Restart".
+After the computer restarts, you will see a list of startup settings.
+Enable Safe Mode with Command Prompt:
+
+Press the number corresponding to "Enable Safe Mode with Command Prompt" (usually number 6 or F6).
+This will boot your computer into Safe Mode with Command Prompt.
+Open File Explorer and Navigate to Drivers Directory:
+
+In the Command Prompt window, type explorer and press Enter. This will open File Explorer.
+Navigate to C:\Windows\System32\drivers (assuming your Windows is installed on the C: drive).
+Look for the CrowdStrike Falcon drivers. They often start with "CS" or "CrowdStrike" and end with .sys extension.
+Delete CrowdStrike Falcon Drivers:
+
+Locate the specific CrowdStrike Falcon driver files you want to delete (for example, files named like CS001.sys, CS291.sys, etc.).
+Right-click on each driver file and select "Delete".
+Confirm the deletion if prompted.
+Restart Your Computer:
+
+After deleting the driver files, close File Explorer.
+In Command Prompt, type shutdown /r /t 0 and press Enter to restart your computer.
